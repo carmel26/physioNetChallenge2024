@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-
-# Please do *not* edit this script. Changes will be discarded so that we can train the models consistently.
-
-# This file contains functions for training models for the Challenge. You can run it as follows:
-#
-#   python train_model.py -d data -m model -v
-#
-# where 'data' is a folder containing the Challenge data, 'model' is a folder for saving your models, and , and -v is an optional
-# verbosity flag.
-
 import argparse
 import sys
 
@@ -30,3 +19,4 @@ def run(args):
 
 if __name__ == '__main__':
     run(get_parser().parse_args(sys.argv[1:]))
+

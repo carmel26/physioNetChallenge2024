@@ -89,8 +89,8 @@ def train_models(data_folder, model_folder, verbose):
 
     # Define parameters for random forest classifier and regressor.
     n_estimators   = 12  # Number of trees in the forest.
-    max_leaf_nodes = 34  # Maximum number of leaf nodes in each tree.
-    random_state   = 56  # Random state; set for reproducibility.
+    max_leaf_nodes = 68  # Maximum number of leaf nodes in each tree.
+    random_state   = 40  # Random state; set for reproducibility.
 
     # Fit the model.
     classification_model = RandomForestClassifier(
